@@ -257,14 +257,6 @@ section#about{
     border-left: 30px solid transparent;
 }
 
-section#services {
-    padding: 0;
-}
-
-.service-top {
-    padding-top: 74px;
-}
-
 .service-heading {
     margin: 15px 0;
     text-transform: none;
