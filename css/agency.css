@@ -232,11 +232,28 @@ hr.light {
 
 section#about{
     padding-bottom:0;
+    overflow: hidden;
+
 }
+section#resume{
+    max-height: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.first-timeline{
+    cursor: pointer;
+}
+
+.first-timeline:hover{
+    opacity: 0.3;
+}
+
 #container{
     height: 30px;
     position: relative;
     padding-top: 150px;
+    z-index: 10;
 }
 
 #one {
@@ -806,3 +823,25 @@ fieldset[disabled] .btn-xl:hover {
     color: #fed136;
     background-color: white;
 }
+
+
+.effect-steve p {
+	margin-top: 1em;
+	padding: 0.5em;
+	font-weight: 800;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(0.9,0.9,1);
+	transform: scale3d(0.9,0.9,1);
+    background: #fff;
+	color: #2d434e;
+}
+
+
+.effect-steve:hover p {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
